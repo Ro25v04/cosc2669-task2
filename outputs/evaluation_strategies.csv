@@ -1,0 +1,25 @@
+Experiment,Model,Strategy,RMSE mean,RMSE std,MAE mean,Folds
+AEMO (with RRP),Decision Tree,Task 1 shuffled 80/20,406.107,0.0,218.466,1
+AEMO (with RRP),Decision Tree,Shuffled 5-fold CV,412.707,5.925,221.606,5
+AEMO (with RRP),Decision Tree,TimeSeriesSplit 5-fold,791.508,74.072,571.238,5
+AEMO (with RRP),Decision Tree,Chronological 80/20,773.604,0.0,621.946,1
+AEMO (with RRP),SVM,Task 1 shuffled 80/20,889.749,0.0,665.874,1
+AEMO (with RRP),SVM,Shuffled 5-fold CV,893.253,8.082,668.638,5
+AEMO (with RRP),SVM,TimeSeriesSplit 5-fold,1031.067,202.069,782.799,5
+AEMO (with RRP),SVM,Chronological 80/20,1319.988,0.0,1051.387,1
+AEMO (without RRP),Decision Tree,Task 1 shuffled 80/20,565.367,0.0,389.746,1
+AEMO (without RRP),Decision Tree,Shuffled 5-fold CV,568.927,7.429,392.387,5
+AEMO (without RRP),Decision Tree,TimeSeriesSplit 5-fold,755.168,137.13,567.209,5
+AEMO (without RRP),Decision Tree,Chronological 80/20,777.849,0.0,624.596,1
+AEMO (without RRP),SVM,Task 1 shuffled 80/20,918.78,0.0,689.309,1
+AEMO (without RRP),SVM,Shuffled 5-fold CV,915.725,8.93,686.483,5
+AEMO (without RRP),SVM,TimeSeriesSplit 5-fold,1058.354,208.255,810.139,5
+AEMO (without RRP),SVM,Chronological 80/20,1346.591,0.0,1074.392,1
+Household,Decision Tree,Task 1 shuffled 80/20,0.709,0.0,0.512,1
+Household,Decision Tree,Shuffled 5-fold CV,0.715,0.009,0.511,5
+Household,Decision Tree,TimeSeriesSplit 5-fold,0.769,0.157,0.557,5
+Household,Decision Tree,Chronological 80/20,0.631,0.0,0.454,1
+Household,SVM,Task 1 shuffled 80/20,0.777,0.0,0.558,1
+Household,SVM,Shuffled 5-fold CV,0.78,0.01,0.556,5
+Household,SVM,TimeSeriesSplit 5-fold,0.77,0.09,0.559,5
+Household,SVM,Chronological 80/20,0.678,0.0,0.494,1

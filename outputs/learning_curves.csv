@@ -1,0 +1,32 @@
+train_size,train_rmse,train_std,val_rmse,val_std,Experiment,Model
+3406.7,299.733,161.125,887.181,141.497,AEMO (without RRP),Decision Tree
+8681.125,589.235,164.994,761.274,139.235,AEMO (without RRP),Decision Tree
+13868.0,603.743,168.704,708.443,138.216,AEMO (without RRP),Decision Tree
+18956.8,591.416,145.221,673.527,150.313,AEMO (without RRP),Decision Tree
+24897.333,599.918,102.048,682.197,153.604,AEMO (without RRP),Decision Tree
+30138.5,551.077,71.085,764.99,75.014,AEMO (without RRP),Decision Tree
+36036.0,589.633,39.848,764.825,75.247,AEMO (without RRP),Decision Tree
+43680.0,579.56,,818.033,,AEMO (without RRP),Decision Tree
+1310.0,898.395,113.162,1044.058,59.585,AEMO (without RRP),SVM
+2402.0,791.101,112.19,966.365,150.281,AEMO (without RRP),SVM
+3494.0,742.425,24.127,1076.213,17.657,AEMO (without RRP),SVM
+4513.333,868.407,126.56,1037.345,39.927,AEMO (without RRP),SVM
+6115.0,783.824,,1077.177,,AEMO (without RRP),SVM
+6988.333,927.472,141.371,946.799,157.44,AEMO (without RRP),SVM
+9027.0,795.61,179.056,1067.123,65.91,AEMO (without RRP),SVM
+2221.3,0.533,0.101,1.051,0.165,Household,Decision Tree
+5660.0,0.596,0.055,0.868,0.169,Household,Decision Tree
+9041.5,0.608,0.037,0.753,0.027,Household,Decision Tree
+11817.5,0.631,0.059,0.718,0.058,Household,Decision Tree
+15803.5,0.643,0.044,0.695,0.054,Household,Decision Tree
+19647.0,0.637,0.01,0.65,0.048,Household,Decision Tree
+23491.0,0.667,0.033,0.649,0.05,Household,Decision Tree
+28474.0,0.682,,0.61,,Household,Decision Tree
+1210.0,0.745,0.125,0.978,0.169,Household,SVM
+2468.0,0.67,0.107,0.897,0.209,Household,SVM
+2990.5,0.786,0.123,1.096,0.243,Household,SVM
+4414.5,0.8,0.068,1.011,0.18,Household,SVM
+5886.0,0.808,0.081,0.84,0.085,Household,SVM
+6976.0,0.728,0.047,0.767,0.134,Household,SVM
+7974.0,0.817,,0.758,,Household,SVM
+9397.333,0.79,0.049,0.76,0.018,Household,SVM

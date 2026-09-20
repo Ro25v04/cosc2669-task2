@@ -1,0 +1,35 @@
+Experiment,Model,Attribute,Group,RMSE,MAE,Mean error (pred - actual),Count
+AEMO (without RRP),Decision Tree,Time band,Overnight (0-7),426.884,359.838,-258.582,3025.0
+AEMO (without RRP),Decision Tree,Time band,"Peak (7-9, 17-21)",778.0,660.361,-587.461,2640.0
+AEMO (without RRP),Decision Tree,Time band,Shoulder,932.917,771.197,-651.838,4819.0
+AEMO (without RRP),Decision Tree,Day type,Weekday,800.114,636.995,-496.32,7201.0
+AEMO (without RRP),Decision Tree,Day type,Weekend,726.628,597.4,-578.834,3283.0
+AEMO (without RRP),Decision Tree,Price regime,Negative price,566.276,462.72,266.952,651.0
+AEMO (without RRP),Decision Tree,Price regime,Normal,741.397,596.948,-532.643,9314.0
+AEMO (without RRP),Decision Tree,Price regime,Price spike (>300),1398.427,1323.815,-1323.815,519.0
+AEMO (without RRP),SVM,Time band,Overnight (0-7),565.414,418.306,-296.006,3025.0
+AEMO (without RRP),SVM,Time band,"Peak (7-9, 17-21)",2091.648,1992.253,-1992.253,2640.0
+AEMO (without RRP),SVM,Time band,Shoulder,1160.824,983.4,-860.992,4819.0
+AEMO (without RRP),SVM,Day type,Weekday,1449.313,1169.792,-1076.185,7201.0
+AEMO (without RRP),SVM,Day type,Weekend,1087.821,865.14,-778.091,3283.0
+AEMO (without RRP),SVM,Price regime,Negative price,543.492,444.964,279.108,651.0
+AEMO (without RRP),SVM,Price regime,Normal,1292.248,1043.008,-990.563,9314.0
+AEMO (without RRP),SVM,Price regime,Price spike (>300),2508.142,2427.132,-2427.132,519.0
+Household,Decision Tree,Time band,Overnight (0-7),0.365,0.229,-0.031,1991.0
+Household,Decision Tree,Time band,"Peak (7-9, 17-21)",0.729,0.558,0.075,1710.0
+Household,Decision Tree,Time band,Shoulder,0.703,0.539,-0.018,3133.0
+Household,Decision Tree,Day type,Weekday,0.585,0.418,-0.028,4940.0
+Household,Decision Tree,Day type,Weekend,0.739,0.546,0.079,1894.0
+Household,Decision Tree,Season,Autumn,0.673,0.475,0.032,1999.0
+Household,Decision Tree,Season,Spring,0.636,0.468,0.02,2175.0
+Household,Decision Tree,Season,Summer,0.54,0.388,-0.04,2089.0
+Household,Decision Tree,Season,Winter,0.757,0.565,-0.024,571.0
+Household,SVM,Time band,Overnight (0-7),0.384,0.24,-0.07,1991.0
+Household,SVM,Time band,"Peak (7-9, 17-21)",0.826,0.644,-0.312,1710.0
+Household,SVM,Time band,Shoulder,0.732,0.573,-0.115,3133.0
+Household,SVM,Day type,Weekday,0.647,0.473,-0.182,4940.0
+Household,SVM,Day type,Weekend,0.752,0.548,-0.072,1894.0
+Household,SVM,Season,Autumn,0.735,0.533,-0.208,1999.0
+Household,SVM,Season,Spring,0.681,0.517,-0.11,2175.0
+Household,SVM,Season,Summer,0.571,0.408,-0.161,2089.0
+Household,SVM,Season,Winter,0.804,0.581,-0.073,571.0

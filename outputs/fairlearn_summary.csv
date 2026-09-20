@@ -1,0 +1,13 @@
+Experiment,Model,Attribute,Overall RMSE,RMSE max-min gap,RMSE min/max ratio
+AEMO (without RRP),Decision Tree,Time band,777.849,506.032,0.458
+AEMO (without RRP),Decision Tree,Day type,777.849,73.485,0.908
+AEMO (without RRP),Decision Tree,Price regime,777.849,832.151,0.405
+AEMO (without RRP),SVM,Time band,1346.591,1526.234,0.27
+AEMO (without RRP),SVM,Day type,1346.591,361.492,0.751
+AEMO (without RRP),SVM,Price regime,1346.591,1964.651,0.217
+Household,Decision Tree,Time band,0.631,0.363,0.501
+Household,Decision Tree,Day type,0.631,0.154,0.791
+Household,Decision Tree,Season,0.631,0.217,0.714
+Household,SVM,Time band,0.678,0.442,0.465
+Household,SVM,Day type,0.678,0.105,0.86
+Household,SVM,Season,0.678,0.233,0.71
